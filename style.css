@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: contain;
+    padding: 4rem;
+    font-family: 'open sans';
+    min-height: 100vh;
+}
+
+nav{
+    margin-bottom: 8rem;
+}
+
+.main{
+    display: flex;
+    min-height: 100vh;
+}
+
+.main-left{
+        padding-right: 2rem;
+        
+}
+
+.main-right{
+    padding-top: 4rem;
+    /* background-color: aqua; */
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-family: 'poppins';
+    color: white;
+    font-weight: 600;
+
+}
+
+p{
+    margin-bottom: 2.5rem;
+    font-size: 24px;
+    color: rgb(212, 206, 206);
+    font-weight: 100;
+}
+ 
+.btn a{
+    background-color: white;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+}
